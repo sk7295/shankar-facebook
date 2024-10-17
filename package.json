@@ -1,19 +1,19 @@
 {
-  "name": "prem-facebook",
-  "version": "1.0.14",
-  "description": "THIS PROJECT IS MADE BY MR PREM BABU",
+  "name": "shankar-facebook",
+  "version": "1.0.15",
+  "description": "THIS PROJECT IS MADE BY SMART SHANKAR",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "PREM BABU",
-    "PREM PROJECT",
-    "NPM PREM FACEBOOK",
+    "SMART SHANKAR",
+    "SHANKAR PROJECT",
+    "NPM SHANKAR FACEBOOK",
     "FACEBOOK DAWNLODER",
     "VIDEO DAWNLODER"
   ],
-  "author": "PREM BABU",
+  "author": "SMART SHANKAR",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.26.1"
