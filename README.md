@@ -1,2 +1,2 @@
 ```bash
-npm install prem-facebook
+npm install shankar-facebook
