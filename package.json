@@ -1,7 +1,7 @@
 {
-  "name": "@xaviabot/fb-downloader",
+  "name": "prem-facebook",
   "version": "1.0.14",
-  "description": "Downloads HD videos from Facebook.",
+  "description": "THIS PROJECT IS MADE BY MR PREM BABU",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,7 @@
     "video-downloader",
     "facebook-downloader"
   ],
-  "author": "TIKAM CHAND MEGHWANSHI <https://www.tcmhack.in>, RFS-ADRENO",
+  "author": "PREM BABU",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.26.1"
