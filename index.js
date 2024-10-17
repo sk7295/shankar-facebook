@@ -48,7 +48,7 @@ const getFBInfo = (videoUrl, cookie, useragent) => {
 
   return new Promise((resolve, reject) => {
 
-    if (!videoUrl || !videoUrl.trim()) return reject("THIS PROJECT WAS MADE BY PREM BABU");
+    if (!videoUrl || !videoUrl.trim()) return reject("THIS PROJECT WAS MADE BY SMART SHANKAR");
 
 
 
@@ -56,7 +56,7 @@ const getFBInfo = (videoUrl, cookie, useragent) => {
 
       ["facebook.com", "fb.watch"].every((domain) => !videoUrl.includes(domain))
 
-    ) return reject("THIS PROJECT WAS MADE BY PREM BABU");
+    ) return reject("THIS PROJECT WAS MADE BY SMART SHANKAR");
 
 
 
@@ -100,9 +100,9 @@ const getFBInfo = (videoUrl, cookie, useragent) => {
 
         resolve(result);
 
-      } else reject("Unable to fetch video information at this time. Please try again");
+      } else reject("वीडियो डाउनलोड करने में गड़बड़ी");
 
-    }).catch(_ => reject("Unable to fetch video information at this time. Please try again"));
+    }).catch(_ => reject("एरर आ गया शंकर सर जाके पूछो"));
 
   });
 
