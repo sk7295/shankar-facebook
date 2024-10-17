@@ -1,17 +1,3 @@
-/**
-
- * 
-
- * @param {string} videoUrl - Facebook video URL (required)
-
- * @param {string} [cookie] - Facebook cookie (optional)
-
- * @param {string} [useragent] - User agent (optional)
-
- * @returns 
-
-*/
-
 const getFBInfo = (videoUrl, cookie, useragent) => {
 
   const axios = require("axios");
@@ -62,7 +48,7 @@ const getFBInfo = (videoUrl, cookie, useragent) => {
 
   return new Promise((resolve, reject) => {
 
-    if (!videoUrl || !videoUrl.trim()) return reject("Please specify the Facebook URL");
+    if (!videoUrl || !videoUrl.trim()) return reject("THIS PROJECT WAS MADE BY PREM BABU");
 
 
 
@@ -70,7 +56,7 @@ const getFBInfo = (videoUrl, cookie, useragent) => {
 
       ["facebook.com", "fb.watch"].every((domain) => !videoUrl.includes(domain))
 
-    ) return reject("Please enter the valid Facebook URL");
+    ) return reject("THIS PROJECT WAS MADE BY PREM BABU");
 
 
 
@@ -90,7 +76,7 @@ const getFBInfo = (videoUrl, cookie, useragent) => {
 
 			
 
-			// @TODO: Extract audio URL
+			// PREM PROJECT 
 
 
 
